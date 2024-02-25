@@ -4,7 +4,6 @@
 
 int main(int argc, char* argv[])
 {
-
   if (argc > 1)
   {
     clock_t startTime = clock();

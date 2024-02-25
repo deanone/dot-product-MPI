@@ -215,13 +215,13 @@ int main(int argc, char** argv)
     MPI_Barrier(MPI_COMM_WORLD);
     end = MPI_Wtime();
 
-    MPI_Finalize();
+    MPI_Finalize(); // clen up MPI environment
     
     if (mpiRank == 0)
     {
       printf("Elapsed time (sec.): %f\n", end - start);
     }
-    
+
     return 0;
   }
   else

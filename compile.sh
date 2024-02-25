@@ -1,1 +1,1 @@
-gcc dot-product.c -o dot-product.out
+gcc dot_product.c -o dot_product.out
